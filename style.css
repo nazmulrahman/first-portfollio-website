@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(54, 54, 54);
+}
+
+.orange-title {
+    color: orange;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+p {
+    color: rgb(95, 95, 95);
+}
+
+.dream {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-box {
+    height: 370px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+}
+
+#box-h3 {
+    color: orange;
+}
+
+#exp-h1 {
+    padding-left: 80px;
+    color: indianred;
+}
+
+.exp-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-card {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-dev-card {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
